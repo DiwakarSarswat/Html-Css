@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <style>
+    
+       body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:white;
+            color:black; 
+        }
+
+        header {
+            background-color: #3f2c509a;
+            color:black;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            margin: o;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #34495E;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin: 0 15px;
+            padding: 10px 15px;
+        }
+
+        nav a:hover {
+            background-color: #2980B9;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap:none;
+            justify-content: space-around;
+            gap: 10px;
+        }
+
+        .card {
+            background-color: hsla(0, 94%, 81%, 0.26);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 1.1em;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #34495E;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 1024px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            .card {
+                width: 100%;
+            }
+
+            nav a {
+                font-size: 1em;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Grand Oberio Hotel </h1>
+    <p>The Grand Hotels of The World </p>
+</header>
+
+
+<main>
+    <section id="home">
+        <h2>Our Destinations</h2>
+        <p>We provide a wide range of hotels all around the world.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Famous Destinations</h2>
+        <div class="container">
+            <div class="card">
+                <img src="10.jpeg" alt="Jaipur">
+                <h3>Jaipur</h3>
+                <p>Our Finest Jaipur Amminities .</p>
+            </div>
+            <div class="card">
+                <img src="11.jpeg" alt="Mumbai">
+                <h3>Mumbai</h3>
+                <p>Biggest hotel of the entire Mumbai</p>
+            </div>
+            <div class="card">
+                <img src="12.jpeg" alt="Banglore">
+                <h3>Banglore</h3>
+                <p>Make your day better with Banglore Lifestyle ...</p>
+            </div>
+            <div class="card">
+                <img src="13.jpeg" alt=" london">
+                <h4>London<h4>
+                <p>Feel the life of NRI in london</p>
+
+            </div>
+           
+            
+        </div>
+    </section>
+</main>
+
+<footer>
+</main>
+    <p>&copy;2025 The Grand Oberio Hotel. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
